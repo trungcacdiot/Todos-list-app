@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import Task from './component/tasks.js';
+import Success from './success.png';
 const arr = [];
 
 class App extends Component {
@@ -26,8 +27,11 @@ rder(event){
 
   render(){
     return <div className="container">
-      <p className="appName">Todos list</p>
-      <input onKeyUp={this.rder} className="input"></input>
+      <p className="appName">Todos list</p> 
+      <div className="checkInput">
+        <img alt="" src={Success} className='check' />
+        <input onKeyUp={this.rder} className="input"></input>
+      </div>
       <div className="task">{this.state.T}</div>
     </div>
   }
