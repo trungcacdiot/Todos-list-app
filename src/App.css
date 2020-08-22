@@ -1,0 +1,28 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.appName,.input{
+    align-self: center;
+    font-size: 30px;
+}
+.appName{
+  font-size: 80px;
+  color: #cc9888;
+}
+.input{
+  padding: 5px 5px 5px 10px;
+  margin: 10px 0 0 0;
+  width: 300px;
+}
+.task{
+  align-self: center;
+  width: 320px;
+  
+ 
+}

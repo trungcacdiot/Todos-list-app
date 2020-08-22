@@ -1,0 +1,33 @@
+
+.containerTask{
+    display:flex;
+    border-style: groove groove groove groove;
+    padding: 5px 10px 5px 10px;
+    margin: 0px;
+    
+ 
+
+    
+}
+.not{
+    display: none;
+}
+.check{
+    display: block;
+    height: 40px;
+    width: 40px;
+    
+}
+.checkok{
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.text{
+   font-size: 25px;
+   align-self: center;
+}
+.textthought{
+    text-decoration: line-through;
+    opacity: 0.2;
+}
