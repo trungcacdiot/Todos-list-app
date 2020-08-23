@@ -15,18 +15,25 @@
   font-size: 80px;
   color: #cc9888;
 }
-.input{
-  padding: 5px 5px 5px 10px;
-  margin: 10px 0 0 0;
-  width: 300px;
-}
+
 .task{
   align-self: center;
   width: 320px;
-  
- 
 }
-.checkinput{
+.checkInput{
   display: flex;
-  flex-direction: row;
+  height: 70px;
+  align-self: center;
+}
+.check{
+  align-self: center;
+  padding: 0 5px 0 0;
+  height: 50px;
+  width: 50px;
+}
+.input{
+  padding: 5px 5px 5px 10px;
+  margin: 10px 0 0 0;
+  width: 250px;
+  align-self: center;
 }

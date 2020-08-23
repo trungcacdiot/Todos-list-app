@@ -24,18 +24,19 @@ rder(event){
   )
 }
 }
-
+  tickAll(){
+  console.log('tickall');
+}
   render(){
     return <div className="container">
       <p className="appName">Todos list</p> 
       <div className="checkInput">
-        <img alt="" src={Success} className='check' />
+        <img onClick={this.tickAll} alt="" src={Success} className="check" />
         <input onKeyUp={this.rder} className="input"></input>
       </div>
       <div className="task">{this.state.T}</div>
     </div>
   }
 }
-  
 
 export default App;
